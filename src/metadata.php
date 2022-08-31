@@ -30,25 +30,25 @@ $sModuleId = 'removegooglefonts';
 
 $aModule = [
     'id'          => $sModuleId,
-    'title'       => '<img src="https://logos.oxidmodule.com/d3logo.svg" alt="(D3)" style="height:1em;width:1em"> Anpassung: Google Fonts local einbinden',
+    'title'       => '<img src="https://logos.oxidmodule.com/d3logo.svg" alt="(D3)" style="height:1em;width:1em"> Google Fonts lokal einbinden',
     'description' => [
-        'de' => 'Bindet Google Fonts local ein',
+        'de' => 'Bindet Google Fonts lokal ein',
         'en' => '',
     ],
-    'version'     => '1.0.0',
+    'version'     => '1.0.0.0',
     'author'      => 'D&sup3; Data Development (Inh.: Thomas Dartsch)',
     'email'       => 'support@shopmodule.com',
     'url'         => 'http://www.oxidmodule.com/',
     'blocks'    => [
         [
-            'template'	       => 'layout/base.tpl',
-            'block'		       => 'base_style',
-            'file'		       => '/Application/views/blocks/layout/d3_base_style.tpl'
+            'template'         => 'layout/base.tpl',
+            'block'            => 'base_style',
+            'file'             => '/Application/views/blocks/layout/d3_base_style.tpl'
         ],
         [
-            'template'	       => 'layout/base.tpl',
-            'block'		       => 'base_fonts',
-            'file'		       => '/Application/views/blocks/layout/d3_base_fonts.tpl'
+            'template'         => 'layout/base.tpl',
+            'block'            => 'base_fonts',
+            'file'             => '/Application/views/blocks/layout/d3_base_fonts.tpl'
         ]
     ],
 ];

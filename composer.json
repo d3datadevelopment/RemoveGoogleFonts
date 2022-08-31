@@ -1,8 +1,7 @@
 {
   "name": "d3/removegooglefonts",
-  "description": "Google Fonts local einbinden",
+  "description": "Google Fonts lokal einbinden",
   "type": "oxideshop-module",
-  "version": "1.0.0.0",
   "keywords": [
     "oxid",
     "modules",
@@ -19,8 +18,11 @@
   ],
   "homepage": "https://www.oxidmodule.com/",
   "license": [
-    "proprietary"
+    "GPL-3.0-or-later"
   ],
+  "require": {
+    "oxid-esales/oxideshop-ce": "^6.2"
+  },
   "extra": {
     "oxideshop": {
       "blacklist-filter": [
